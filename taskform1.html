@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link href="css/all.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <style>
+        .contact{
+            min-height:500px;
+            margin-top:10%;
+            border-radius: 10px;
+            
+        }
+input.form-control{
+    border: none;
+    background: transparent;
+    border-top:1px solid black;
+}
+
+
+
+.logo-text {
+  font-family:'Courier New', Courier, monospace;
+  font-size: 60px;
+  text-align: center;
+  background: linear-gradient(90deg, #007BFF, #FF7F00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.15);
+}
+    </style>
+</head>
+
+<body style="background-color: lightgrey;">
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-sm-4 bg-light mx-auto contact p-3">
+                <h1 class="text-center">Contact Us</h1>
+            <h1 class="logo-text">Ansh Paper Roll</h1>
+
+
+               <label  class="form-label fs-5">Name</label>
+                <input type="text" class="form-control ">
+                  <label  class="form-label fs-5"> Your Password</label>
+                <input type="password" class="form-control  " style="margin-top:90px;">
+                  <label  class="form-label fs-5">Your Message</label>
+                  <input type="text" class="form-control " style="border:none;">
+             <button type="button" class="btn" style="margin-left:150px;  background: linear-gradient(to right, skyblue, purple); border:none;">send your message</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
